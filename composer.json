@@ -1,0 +1,12 @@
+{
+    "name": "jpelak/php-version-test",
+    "description": "Simple PHP version test harness",
+    "type": "project",
+    "require": {},
+    "scripts": {
+        "build": [
+            "php scripts/record-version.php storage/php-cli.json",
+            "@php scripts/record-version.php storage/composer-php.json"
+        ]
+    }
+}
